@@ -6,6 +6,7 @@ header {
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 8px;
+    background-color: #FFF6E6;
     text-align: center;
 }
 
@@ -95,6 +96,10 @@ p {
     margin-bottom: 16px;
 }
 
+body {
+    background-color: #FFF6E6;
+}
+
 .body-image {
     display: block;
     margin-left: auto;
@@ -180,6 +185,7 @@ footer {
     padding-right: 24px;
     padding-top: 20px;
     padding-bottom: 16px;
+    background-color: #FFF6E6;
     text-align: center;
     font-family: sans-serif;
     text-transform: uppercase;
