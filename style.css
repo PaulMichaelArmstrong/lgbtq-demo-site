@@ -19,19 +19,40 @@ header {
 }
 
 #hideMe {
-    -webkit-animation: cssAnimation 2s forwards; 
-    animation: cssAnimation 2s forwards;
+    -webkit-animation: cssAnimation 4s forwards; 
+    animation: cssAnimation 4s forwards;
 }
+
 @keyframes cssAnimation {
     0%   {opacity: 1;}
-    90%  {opacity: 1;}
+    50%  {opacity: 1;}
+    95%  {opacity: 0;}
+    95%  {position: fixed;}
+    95%  {top: 50%;}
+    95%  {left: 50%;}
+    95%  {margin-top: -315px;}
+    95%  {margin-left: -315px;}
     100% {opacity: 0;}
+    100% {position: fixed;}
+    100% {margin-top: 2000px;}
+    100% {margin-left: 2000px;}
 }
+
 @-webkit-keyframes cssAnimation {
     0%   {opacity: 1;}
-    90%  {opacity: 1;}
+    50%  {opacity: 1;}
+    95%  {opacity: 0;}
+    95%  {position: fixed;}
+    95%  {top: 50%;}
+    95%  {left: 50%;}
+    95%  {margin-top: -315px;}
+    95%  {margin-left: -315px;}
     100% {opacity: 0;}
+    100% {position: fixed;}
+    100% {margin-top: 2000px;}
+    100% {margin-left: 2000px;}
 }
+
 
 .title-image {
     width: 100%;
