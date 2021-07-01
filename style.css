@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+}
+
+header {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.title-image {
+    width: 100%;
+    max-width: 700px;
+}
+
+nav {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: -16px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #002F32;
+}
+a.class1 {
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #8E008E;
+}
+
+a.class1:hover {
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #00C0C0;
+}
+
+a.class2 {
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #008E00;
+}
+
+a.class2:hover {
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #FF8E00;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 700px;
+    color: #002F32;
+    font-family: sans-serif;
+    font-size: large;
+    line-height: 1.6;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 700px;
+    color: #002F32;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.body-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 700px;
+    padding-bottom: 24px;;
+    text-align: center;
+}
+
+section {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#hot-pink-section {
+    background-color: #FF69B4;
+}
+
+.hot-pink-text {
+    color: #AE4B7B;
+}
+
+#red-section {
+    background-color: #FF0000;
+}
+
+.red-text {
+    color: #AB1314;
+}
+
+#orange-section {
+    background-color: #FF8E00;
+}
+
+.orange-text {
+    color: #B16710;
+}
+
+#yellow-section {
+    background-color: #FFFF00;
+}
+
+.yellow-text {
+    color: #AFAA11;
+}
+
+#green-section {
+    background-color: #008E00;
+}
+
+.green-text {
+    color: #006830;
+}
+
+#turquoise-section {
+    background-color: #00C0C0;
+}
+
+.turquoise-text {
+    color: #0D8B8C;
+}
+
+#indigo-section {
+    background-color: #400098;
+}
+
+.indigo-text {
+    color: #2B0F5C;
+}
+
+#violet-section {
+    background-color: #8E008E;
+}
+
+.violet-text {
+    color: #;
+}
+
+
+footer {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #002F32;
+}
+
+a.class3 {
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #FF69B4;
+}
+
+a.class3:hover {
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #00C0C0;
+}
