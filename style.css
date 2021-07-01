@@ -176,6 +176,7 @@ body {
     line-height: 1;
     background: -webkit-linear-gradient(#FF69B4, #FF0000, #FF8E00, #FFFF00, #008E00, #00C0C0, #503795, #8E008E);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
