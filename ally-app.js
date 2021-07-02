@@ -8,5 +8,4 @@ function allyPrompt() {
     } else if (userAnswer.toLowerCase() == 'no'){
         document.write ('<img src="no.png" class="confirm-image" id="hideMe">');
     }
- 
 }
