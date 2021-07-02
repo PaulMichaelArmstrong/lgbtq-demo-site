@@ -78,7 +78,7 @@ a.class1 {
     font-size: 14px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #8E008E;
+    color: #FF0000;
 }
 
 a.class1:hover {
@@ -92,7 +92,7 @@ a.class2 {
     font-size: 14px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #008E00;
+    color: #FF8E00;
 }
 
 a.class2:hover {
@@ -106,10 +106,23 @@ a.class3 {
     font-size: 14px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #FF0000;
+    color: #008E00;
 }
 
 a.class3:hover {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #00C0C0;
+}
+
+a.class4 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #503795;
+}
+
+a.class4:hover {
     font-size: 14px;
     letter-spacing: 1px;
     color: #00C0C0;
@@ -313,3 +326,15 @@ section {
     font-size: 3rem;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0);
 }
+
+.rainbow-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-gap: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 100%;
+    text-align: center;
